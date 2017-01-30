@@ -1,0 +1,20 @@
+{
+  "name": "hallie_and_willies_wedding",
+  "version": "1.0.0",
+  "description": "A web app for our wedding.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Willie Wrinkle",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.22",
+    "mongoose": "^4.7.8",
+    "nodemailer": "^2.7.2",
+    "nodemailer-mailgunapi-transport": "0.0.3",
+    "xlsx": "^0.8.1"
+  }
+}

@@ -1,0 +1,249 @@
+#root {
+    padding: 15px;
+    background-color: ghostwhite;
+    font-family: 'Playfair Display', serif;
+}
+
+#root p,
+input,
+textarea {
+    font-family: 'Raleway', sans-serif;
+}
+
+.header img {
+    max-height: 500px;
+    max-width: 75vw;
+}
+
+.header p {
+    font-size: 22px;
+}
+
+.header .link {
+    color: #5b7b5b;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.header .link:hover {
+    color: #84b784;
+}
+
+.header h1 {
+    font-size: 42px;
+}
+
+.header img,
+.accordion-group {
+    box-shadow: 10px 10px 15px #cfdccf;
+}
+
+.accordion {
+    overflow: hidden;
+    border: 1px solid;
+    transition: max-height .5s;
+}
+
+.rsvp-accordion {
+    background-color: #ebfdeb;
+    font-size: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.event-information-accordion {
+    background-color: #caeeca;
+}
+
+.our-story-accordion {
+    background-color: #a2cfa2;
+}
+
+.gift-registry-accordion {
+    background-color: #84b784;
+}
+
+.playlist-accordion {
+    background-color: #6a9a6a;
+}
+
+.pictures-accordion {
+    background-color: #5b7b5b;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.accordion span {
+    display: block;
+    padding: 7px;
+    user-select: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.accordion img {
+    max-height: 300px;
+}
+
+form {
+    margin-bottom: 25px;
+}
+
+form div,
+form input[type=submit] {
+    margin: 10px;
+}
+
+form input[type=checkbox],
+form input[type=submit] {
+    cursor: pointer;
+}
+
+form label {
+    margin-right: 10px;
+}
+
+form input,
+form textarea {
+    background-color: aliceblue;
+    border: 1px solid;
+    font-size: 20px;
+}
+
+form .name {
+    width: 100%;
+}
+
+form .events {
+    margin-left: 10%;
+}
+
+form .event {
+    margin: 0;
+    display: inline-block;
+    width: 50%;
+}
+
+form .event .number-of-guests input {
+    display: inline-block;
+    margin-top: 5px;
+    width: 40px;
+    text-align: center;
+}
+
+form .message textarea {
+    height: 15%;
+    width: 100%;
+    resize: none;
+    display: block;
+}
+
+form input[type=submit] {
+    display: inline-block;
+}
+
+form .submit-message {
+    display: inline-block;
+    float: right;
+    margin-right: 5px;
+}
+
+.event-information {
+    margin: 15px;
+}
+
+.event-information a,
+.event-information a:visited {
+    color: #487148;
+}
+
+.event-information a:hover {
+    color: #6a9a6a;
+}
+
+.event-information span {
+    display: inline;
+    border: 1px solid;
+    border-bottom: none;
+}
+
+@media screen and (max-width: 530px) {
+    .event-information span {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 422px) {
+    .event-information .tabs {
+        margin-bottom: -4px;
+    }
+    .event-information span {
+        font-size: 12px;
+    }
+}
+
+.event-information span:first-child {
+    border-top-left-radius: 5px;
+}
+
+.event-information span:last-child {
+    border-top-right-radius: 5px;
+}
+
+.event-information .open-tab {
+    background-color: #ebfdeb;
+}
+
+.event-information .view {
+    margin-top: -3px;
+}
+
+.event-information .view-pane {
+    border: 1px solid;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ebfdeb;
+    box-shadow: 10px 10px 15px #84b784;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.our-story,
+.gift-registry,
+.playlist,
+.pictures {
+    padding: 15px;
+}
+
+.gift-registry p:first-child,
+.playlist p:first-child {
+    margin-top: 0;
+}
+
+.gift-registry a,
+.gift-registry a:visited {
+    color: #ebfdeb;
+}
+
+.gift-registry a:hover {
+    color: #caeeca;
+}
+
+.playlist a,
+.playlist a:visited {
+    color: #caeeca;
+}
+
+.playlist a:hover {
+    color: #ebfdeb;
+}
+
+.pictures a,
+.pictures a:visited {
+    color: #ebfdeb;
+}
+
+.pictures a:hover {
+    color: #caeeca;
+}
